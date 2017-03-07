@@ -1,0 +1,513 @@
+[
+        {
+            "id": 5124268588,
+            "term": "\u30ab\u30ed\u30ea\u30fc\u306e\u9ad8\u3044\u98df\u7269",
+            "definition": "\u30ab\u30ed\u30ea\u30fc\u306e\u305f\u304b\u3044\u3057\u3087\u304f\u3082\u3064 th\u1ee9c \u0103n l\u01b0\u1ee3ng calo cao CAO TH\u1ef0C V\u1eacT",
+            "image": null,
+            "rank": 0
+        },
+        {
+            "id": 5124268589,
+            "term": "\u3053\u306e\u5730\u57df\u306e\u4e3b\u8981\u306a\u4f5c\u7269\u306f\u7c73\u3067\u3059",
+            "definition": "\u3053\u306e\u3061\u3044\u304d\u306e\u3057\u3085\u3088\u3046\u306a\u3055\u304f\u3082\u3064\u306f\u3053\u3081\u3067\u3059 hoa m\u00e0u ch\u1ee7 y\u1ebfu c\u1ee7a v\u00f9ng n\u00e0y l\u00e0 g\u1ea1o \u0110\u1ecaA V\u1ef0C CH\u1ee6 Y\u00caU, Y\u1ebeU T\u00c1C V\u1eacT M\u1ec4",
+            "image": null,
+            "rank": 1
+        },
+        {
+            "id": 5124268590,
+            "term": "\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u65e5\u6642\u3092\u6c7a\u3081\u308b",
+            "definition": "\u30d1\u30fc\u30c6\u30a3\u30fc\u306e\u306b\u3061\u3058\u3092\u304d\u3081\u308b quy\u1ebft \u0111\u1ecbnh ng\u00e0y gi\u1edd t\u1ed5 ch\u1ee9c ti\u1ec7c NH\u1eacT TH\u1edcI QUY\u1ebeT",
+            "image": null,
+            "rank": 2
+        },
+        {
+            "id": 5124268591,
+            "term": "\u30d7\u30e9\u30b9\u30c1\u30c3\u30af\u306e\u5165\u308c\u7269",
+            "definition": "\u30d7\u30e9\u30b9\u30c1\u30c3\u30af\u306e\u3044\u308c\u3082\u306e \u0111\u1ed3 \u0111\u1ef1ng b\u1eb1ng plastic NH\u1eacP V\u1eacT",
+            "image": null,
+            "rank": 3
+        },
+        {
+            "id": 5124268592,
+            "term": "\u4e2d\u5e74",
+            "definition": "\u3061\u3085\u3046\u306d\u3093 trung ni\u00ean TRUNG NI\u00caN",
+            "image": null,
+            "rank": 4
+        },
+        {
+            "id": 5124268593,
+            "term": "\u4e2d\u5e74\u5973\u6027",
+            "definition": "\u3061\u3085\u3046\u306d\u3093\u3058\u3087\u305b\u3044 ph\u1ee5 n\u1eef trung ni\u00ean TRUNG NI\u00caN N\u1eee T\u00cdNH",
+            "image": null,
+            "rank": 5
+        },
+        {
+            "id": 5124268594,
+            "term": "\u4e3b\u8981\uff08\u306a\uff09",
+            "definition": "\u3057\u3085\u3088\u3046\uff08\u306a\uff09 ch\u1ee7 y\u1ebfu; ch\u00ednh; quan tr\u1ecdng CH\u1ee6 Y\u00caU, Y\u1ebeU",
+            "image": null,
+            "rank": 6
+        },
+        {
+            "id": 5124268595,
+            "term": "\u4eba\u7269",
+            "definition": "\u3058\u3093\u3076\u3064 nh\u00e2n v\u1eadt, h\u00ecnh t\u01b0\u1ee3ng, t\u00ednh c\u00e1ch NH\u00c2N V\u1eacT",
+            "image": null,
+            "rank": 7
+        },
+        {
+            "id": 5124268596,
+            "term": "\u4eca\u65e5",
+            "definition": "\u3053\u3093\u306b\u3061 ng\u00e0y nay, h\u00f4m nay KIM NH\u1eacT",
+            "image": null,
+            "rank": 8
+        },
+        {
+            "id": 5124268597,
+            "term": "\u4eca\u65e5\u306e\u65e5\u672c\u306e\u793e\u4f1a\u3092\u8003\u3048\u308b",
+            "definition": "\u3053\u3093\u306b\u3061\u306e\u306b\u307b\u3093\u306e\u3057\u3083\u304b\u3044\u3092\u304b\u3093\u304c\u3048\u308b suy ngh\u0129 v\u1ec1 x\u00e3 h\u1ed9i Nh\u1eadt ng\u00e0y nay KIM NH\u1eacT NH\u1eacT B\u1ea2N X\u00c3 H\u1ed8I KH\u1ea2O",
+            "image": null,
+            "rank": 9
+        },
+        {
+            "id": 5124268598,
+            "term": "\u4f5c\u7269",
+            "definition": "\u3055\u304f\u3082\u3064 c\u00e2y tr\u1ed3ng, hoa m\u00e0u T\u00c1C V\u1eacT",
+            "image": null,
+            "rank": 10
+        },
+        {
+            "id": 5124268599,
+            "term": "\u5143\u65e5",
+            "definition": "\u304c\u3093\u3058\u3064 ng\u00e0y \u0111\u1ea7u n\u0103m m\u1edbi NGUY\u00caN NH\u1eacT",
+            "image": null,
+            "rank": 11
+        },
+        {
+            "id": 5124268600,
+            "term": "\u5148\u6708\u3001\u6765\u65e5\u3057\u307e\u3057\u305f",
+            "definition": "\u305b\u3093\u3052\u3064\u3001\u3089\u3044\u306b\u3061\u3057\u307e\u3057\u305f th\u00e1ng tr\u01b0\u1edbc t\u00f4i \u0111\u00e3 t\u1edbi Nh\u1eadt TI\u00caN NGUY\u1ec6T LAI NH\u1eacT",
+            "image": null,
+            "rank": 12
+        },
+        {
+            "id": 5124268601,
+            "term": "\u5165\u308c\u7269",
+            "definition": "\u3044\u308c\u3082\u306e \u0111\u1ed3 \u0111\u1ef1ng, \u0111\u1ed3 ch\u1ee9a NH\u1eacP V\u1eacT",
+            "image": null,
+            "rank": 13
+        },
+        {
+            "id": 5124268602,
+            "term": "\u53e4\u3044\u66f8\u7269\u3092\u8aad\u3080",
+            "definition": "\u3075\u308b\u3044\u3057\u3087\u3082\u3064\u3092\u3088\u3080 \u0111\u1ecdc s\u00e1ch c\u0169 C\u1ed4 TH\u01af V\u1eacT \u0110\u1ed8C",
+            "image": null,
+            "rank": 14
+        },
+        {
+            "id": 5124268603,
+            "term": "\u540c\u3058\u5e74\u4ee3",
+            "definition": "\u304a\u306a\u3058\u306d\u3093\u3060\u3044 c\u00f9ng th\u1ebf h\u1ec7 \u0110\u1ed2NG NI\u00caN \u0110\u1ea0I",
+            "image": null,
+            "rank": 15
+        },
+        {
+            "id": 5124268604,
+            "term": "\u5b66\u6821\u3067\u591a\u304f\u306e\u7269\u4e8b\u3092\u5b66\u3076",
+            "definition": "\u304c\u3063\u3053\u3046\u3067\u304a\u304a\u304f\u306e\u3082\u306e\u3054\u3068\u3092\u307e\u306a\u3076 h\u1ecdc nhi\u1ec1u th\u1ee9 \u1edf tr\u01b0\u1eddng H\u1eccC HI\u1ec6U \u0110A V\u1eacT S\u1ef0 H\u1eccC",
+            "image": null,
+            "rank": 16
+        },
+        {
+            "id": 5124268605,
+            "term": "\u5c11\u5e74",
+            "definition": "\u3057\u3087\u3046\u306d\u3093 thi\u1ebfu ni\u00ean THI\u1ebeU, THI\u1ec2U NI\u00caN",
+            "image": null,
+            "rank": 17
+        },
+        {
+            "id": 5124268606,
+            "term": "\u5e74\u4e2d",
+            "definition": "\u306d\u3093\u3058\u3085\u3046 su\u1ed1t n\u0103m NI\u00caN TRUNG",
+            "image": null,
+            "rank": 18
+        },
+        {
+            "id": 5124268607,
+            "term": "\u5e74\u4e2d\u6691\u3044\u5834\u6240",
+            "definition": "\u306d\u3093\u3058\u3085\u3046\u3042\u3064\u3044\u3070\u3057\u3087 n\u01a1i n\u00f3ng quanh n\u0103m NI\u00caN TRUNG TH\u1eec TR\u01af\u1edcNG S\u1ede",
+            "image": null,
+            "rank": 19
+        },
+        {
+            "id": 5124268608,
+            "term": "\u5e74\u4ee3",
+            "definition": "\u306d\u3093\u3060\u3044 ni\u00ean \u0111\u1ea1i; tu\u1ed5i; th\u1ebf h\u1ec7 NI\u00caN \u0110\u1ea0I",
+            "image": null,
+            "rank": 20
+        },
+        {
+            "id": 5124268609,
+            "term": "\u5e74\u5ea6",
+            "definition": "\u306d\u3093\u3069 n\u0103m NI\u00caN \u0110\u1ed8",
+            "image": null,
+            "rank": 21
+        },
+        {
+            "id": 5124268610,
+            "term": "\u5e74\u6708",
+            "definition": "\u306d\u3093\u3052\u3064 th\u1eddi gian, n\u0103m th\u00e1ng NI\u00caN NGUY\u1ec6T",
+            "image": null,
+            "rank": 22
+        },
+        {
+            "id": 5124268611,
+            "term": "\u5e74\u9593",
+            "definition": "\u306d\u3093\u304b\u3093 n\u0103m NI\u00caN GIAN",
+            "image": null,
+            "rank": 23
+        },
+        {
+            "id": 5124268612,
+            "term": "\u5e74\u9593\u306e\u4e88\u5b9a\u3092\u7acb\u3066\u308b",
+            "definition": "\u306d\u3093\u304b\u3093\u306e\u3088\u3066\u3044\u3092\u305f\u3066\u308b l\u1eadp l\u1ecbch tr\u00ecnh n\u0103m NI\u00caN GIAN D\u1ef0 \u0110\u1ecaNH L\u1eacP",
+            "image": null,
+            "rank": 24
+        },
+        {
+            "id": 5124268613,
+            "term": "\u5f8c\u65e5",
+            "definition": "\u3054\u3058\u3064 sau n\u00e0y, ng\u00e0y kh\u00e1c H\u1eacU NH\u1eacT",
+            "image": null,
+            "rank": 25
+        },
+        {
+            "id": 5124268614,
+            "term": "\u5f8c\u65e5\u3001\u307e\u305f\u9023\u7d61\u3057\u307e\u3059",
+            "definition": "\u3054\u3058\u3064\u3001\u307e\u305f\u308c\u3093\u3089\u304f\u3057\u307e t\u00f4i s\u1ebd li\u00ean l\u1ea1c l\u1ea1i sau H\u1eacU NH\u1eacT LI\u00caN L\u1ea0C",
+            "image": null,
+            "rank": 26
+        },
+        {
+            "id": 5124268615,
+            "term": "\u65e5\u306e\u5165\u308a",
+            "definition": "\u3072\u306e\u3044\u308a m\u1eb7t tr\u1eddi l\u1eb7n NH\u1eacT NH\u1eacP",
+            "image": null,
+            "rank": 27
+        },
+        {
+            "id": 5124268616,
+            "term": "\u65e5\u306e\u51fa",
+            "definition": "\u3072\u306e\u3067 m\u1eb7t tr\u1eddi m\u1ecdc NH\u1eacT XU\u1ea4T",
+            "image": null,
+            "rank": 28
+        },
+        {
+            "id": 5124268617,
+            "term": "\u65e5\u4e2d",
+            "definition": "\u306b\u3063\u3061\u3085\u3046 ban ng\u00e0y NH\u1eacT TRUNG",
+            "image": null,
+            "rank": 29
+        },
+        {
+            "id": 5124268618,
+            "term": "\u65e5\u5149",
+            "definition": "\u306b\u3063\u3053\u3046 \u00e1nh n\u1eafng, \u00e1nh s\u00e1ng m\u1eb7t tr\u1eddi NH\u1eacT QUANG",
+            "image": null,
+            "rank": 30
+        },
+        {
+            "id": 5124268619,
+            "term": "\u65e5\u5149\u3092\u6d74\u3073\u308b",
+            "definition": "\u306b\u3063\u3053\u3046\u3092\u3042\u3073\u308b t\u1eafm n\u1eafng NH\u1eacT QUANG D\u1ee4C",
+            "image": null,
+            "rank": 31
+        },
+        {
+            "id": 5124268620,
+            "term": "\u65e5\u6642",
+            "definition": "\u306b\u3061\u3058 ng\u00e0y gi\u1edd NH\u1eacT TH\u1edcI",
+            "image": null,
+            "rank": 32
+        },
+        {
+            "id": 5124268621,
+            "term": "\u660e\u65e5\u306e\u65e5\u4e2d\u306f\u5bb6\u306b\u3044\u307e\u305b\u3093",
+            "definition": "\u3042\u3057\u305f\u306e\u306b\u3063\u3061\u3085\u3046\u306f\u3044\u3048\u306b\u3044\u307e\u305b\u3093 ng\u00e0y mai v\u00e0o ban ng\u00e0y kh\u00f4ng c\u00f3 nh\u00e0 MINH NH\u1eacT NH\u1eacT TRUNG GIA",
+            "image": null,
+            "rank": 33
+        },
+        {
+            "id": 5124268622,
+            "term": "\u66f8\u7269",
+            "definition": "\u3057\u3087\u3082\u3064 s\u00e1ch TH\u01af V\u1eacT",
+            "image": null,
+            "rank": 34
+        },
+        {
+            "id": 5124268623,
+            "term": "\u6708\u65e5",
+            "definition": "\u3064\u304d\u3072 th\u1eddi gian, n\u0103m th\u00e1ng NGUY\u1ec6T NH\u1eacT",
+            "image": null,
+            "rank": 35
+        },
+        {
+            "id": 5124268624,
+            "term": "\u6708\u65e5\u304c\u6d41\u308c\u308b",
+            "definition": "\u3064\u304d\u3072\u304c\u306a\u304c\u308c\u308b tr\u1ea3i qua n\u0103m th\u00e1ng NGUY\u1ec6T NH\u1eacT L\u01afU",
+            "image": null,
+            "rank": 36
+        },
+        {
+            "id": 5124268625,
+            "term": "\u6709\u540d\u306a\u4eba\u7269",
+            "definition": "\u3086\u3046\u3081\u3044\u306a\u3058\u3093\u3076\u3064 nh\u00e2n v\u1eadt n\u1ed5i ti\u1ebfng H\u1eeeU DANH NH\u00c2N V\u1eacT",
+            "image": null,
+            "rank": 37
+        },
+        {
+            "id": 5124268626,
+            "term": "\u6765\u5e74\u5ea6\u306e\u4e88\u7b97",
+            "definition": "\u3089\u3044\u306d\u3093\u3069\u306e\u3088\u3055\u3093 d\u1ef1 to\u00e1n c\u1ee7a n\u0103m t\u1edbi LAI NI\u00caN \u0110\u1ed8 D\u1ef0 TO\u00c1N",
+            "image": null,
+            "rank": 38
+        },
+        {
+            "id": 5124268627,
+            "term": "\u6765\u65e5",
+            "definition": "\u3089\u3044\u306b\u3061 \u0111\u1ebfn Nh\u1eadt LAI NH\u1eacT",
+            "image": null,
+            "rank": 39
+        },
+        {
+            "id": 5124268628,
+            "term": "\u7269\u4e8b",
+            "definition": "\u3082\u306e\u3054\u3068 m\u1ecdi vi\u1ec7c, m\u1ecdi chuy\u1ec7n V\u1eacT S\u1ef0",
+            "image": null,
+            "rank": 40
+        },
+        {
+            "id": 5124268629,
+            "term": "\u7269\u7406",
+            "definition": "\u3076\u3064\u308a v\u1eadt l\u00fd V\u1eacT L\u00cd",
+            "image": null,
+            "rank": 41
+        },
+        {
+            "id": 5124268630,
+            "term": "\u7269\u7406\u306e\u8a66\u9a13",
+            "definition": "\u3076\u3064\u308a\u306e\u3057\u3051\u3093 thi v\u1eadt l\u00fd V\u1eacT L\u00cd TH\u00cd NGHI\u1ec6M",
+            "image": null,
+            "rank": 42
+        },
+        {
+            "id": 5124268631,
+            "term": "\u7269\u7f6e",
+            "definition": "\u3082\u306e\u304a\u304d ph\u00f2ng ch\u1ee9a \u0111\u1ed3 V\u1eacT TR\u00cd",
+            "image": null,
+            "rank": 43
+        },
+        {
+            "id": 5124268632,
+            "term": "\u7269\u7f6e\u306b\u3057\u307e\u3046",
+            "definition": "\u3082\u306e\u304a\u304d\u306b\u3057\u307e\u3046 cho \u0111\u1ed3 v\u00e0o ph\u00f2ng ch\u1ee9a V\u1eacT TR\u00cd",
+            "image": null,
+            "rank": 44
+        },
+        {
+            "id": 5124268633,
+            "term": "\u7269\u8a9e",
+            "definition": "\u3082\u306e\u304c\u305f\u308a c\u00e2u chuy\u1ec7n, truy\u1ec7n k\u1ec3 V\u1eacT NG\u1eee",
+            "image": null,
+            "rank": 45
+        },
+        {
+            "id": 5124268634,
+            "term": "\u7269\u8a9e\u3092\u8aad\u3080",
+            "definition": "\u3082\u306e\u304c\u305f\u308a\u3092\u3088\u3080 \u0111\u1ecdc truy\u1ec7n V\u1eacT NG\u1eee \u0110\u1ed8C",
+            "image": null,
+            "rank": 46
+        },
+        {
+            "id": 5124268635,
+            "term": "\u7269\u97f3",
+            "definition": "\u3082\u306e\u304a\u3068 ti\u1ebfng \u0111\u1ed9ng (l\u1ea1), ti\u1ebfng \u1ed3n V\u1eacT \u00c2M",
+            "image": null,
+            "rank": 47
+        },
+        {
+            "id": 5124268636,
+            "term": "\u7269\u97f3\u304c\u805e\u3053\u3048\u308b",
+            "definition": "\u3082\u306e\u304a\u3068\u304c\u304d\u3053\u3048\u308b nghe ti\u1ebfng \u0111\u1ed9ng l\u1ea1 V\u1eacT \u00c2M V\u0102N",
+            "image": null,
+            "rank": 48
+        },
+        {
+            "id": 5124268637,
+            "term": "\u751f\u304d\u7269",
+            "definition": "\u3044\u304d\u3082\u306e sinh v\u1eadt, lo\u00e0i v\u1eadt SINH V\u1eacT",
+            "image": null,
+            "rank": 49
+        },
+        {
+            "id": 5124268638,
+            "term": "\u751f\u304d\u7269\u306e\u4e16\u8a71\u3092\u3059\u308b",
+            "definition": "\u3044\u304d\u3082\u306e\u306e\u305b\u308f\u3092\u3059\u308b ch\u0103m s\u00f3c con v\u1eadt SINH V\u1eacT TH\u1ebe THO\u1ea0I",
+            "image": null,
+            "rank": 50
+        },
+        {
+            "id": 5124268639,
+            "term": "\u751f\u5e74\u6708\u65e5",
+            "definition": "\u305b\u3044\u306d\u3093\u304c\u3063\u3074 ng\u00e0y th\u00e1ng n\u0103m sinh SINH NI\u00caN NGUY\u1ec6T NH\u1eacT",
+            "image": null,
+            "rank": 51
+        },
+        {
+            "id": 5124268640,
+            "term": "\u751f\u5e74\u6708\u65e5\u3092\u805e\u304f",
+            "definition": "\u305b\u3044\u306d\u3093\u304c\u3063\u3074\u3092\u304d\u304f h\u1ecfi ng\u00e0y th\u00e1ng n\u0103m sinh SINH NI\u00caN NGUY\u1ec6T NH\u1eacT V\u0102N",
+            "image": null,
+            "rank": 52
+        },
+        {
+            "id": 5124268641,
+            "term": "\u751f\u7269",
+            "definition": "\u305b\u3044\u3076\u3064 sinh v\u1eadt, lo\u00e0i v\u1eadt SINH V\u1eacT",
+            "image": null,
+            "rank": 53
+        },
+        {
+            "id": 5124268642,
+            "term": "\u80cc\u306e\u9ad8\u3044\u9752\u5e74",
+            "definition": "\u305b\u306e\u305f\u304b\u3044\u305b\u3044\u306d\u3093 ng\u01b0\u1eddi thanh ni\u00ean cao B\u1ed0I CAO THANH NI\u00caN",
+            "image": null,
+            "rank": 54
+        },
+        {
+            "id": 5124268643,
+            "term": "\u9577\u3044\u5e74\u6708\u304c\u7d4c\u3064",
+            "definition": "\u306a\u304c\u3044\u306d\u3093\u3052\u3064\u304c\u305f\u3064 tr\u1ea3i qua m\u1ed9t th\u1eddi gian d\u00e0i TR\u01af\u1edcNG, TR\u01af\u1edeNG NI\u00caN NGUY\u1ec6T KINH",
+            "image": null,
+            "rank": 55
+        },
+        {
+            "id": 5124268644,
+            "term": "\u9752\u5c11\u5e74",
+            "definition": "\u305b\u3044\u3057\u3087\u3046\u306d\u3093 thanh thi\u1ebfu ni\u00ean THANH THI\u1ebeU, THI\u1ec2U NI\u00caN",
+            "image": null,
+            "rank": 56
+        },
+        {
+            "id": 5124268645,
+            "term": "\u9752\u5e74",
+            "definition": "\u305b\u3044\u306d\u3093 thanh ni\u00ean THANH NI\u00caN",
+            "image": null,
+            "rank": 57
+        },
+        {
+            "id": 5124268646,
+            "term": "\u98df\u7269",
+            "definition": "\u3057\u3087\u304f\u3082\u3064 \u0111\u1ed3 \u0103n, th\u1ee9c \u0103n TH\u1ef0C V\u1eacT",
+            "image": null,
+            "rank": 58
+        },
+        {
+            "id": 5124268647,
+            "term": "\u4e00\u65b9\u901a\u884c",
+            "definition": "\u3044\u3063\u307d\u3046\u3064\u3046\u3053\u3046 l\u01b0u th\u00f4ng m\u1ed9t chi\u1ec1u NH\u1ea4T PH\u01af\u01a0NG TH\u00d4NG H\u00c0NH, H\u00c0NG",
+            "image": null,
+            "rank": 59
+        },
+        {
+            "id": 5124268648,
+            "term": "\u4e2d\u53e4",
+            "definition": "\u3061\u3085\u3046\u3053 h\u00e0ng \u0111\u00e3 qua s\u1eed d\u1ee5ng TRUNG C\u1ed4",
+            "image": null,
+            "rank": 60
+        },
+        {
+            "id": 5124268649,
+            "term": "\u4e2d\u53e4\u306e\u8eca\u3092\u8cb7\u3046",
+            "definition": "\u3061\u3085\u3046\u3053\u306e\u304f\u308b\u307e\u3092\u304b\u3046 mua c\u00e1i xe c\u0169 TRUNG C\u1ed4 XA M\u00c3I",
+            "image": null,
+            "rank": 61
+        },
+        {
+            "id": 5124268650,
+            "term": "\u4e2d\u5fc3",
+            "definition": "\u3061\u3085\u3046\u3057\u3093 trung t\u00e2m, ti\u00eau \u0111i\u1ec3m TRUNG T\u00c2M",
+            "image": null,
+            "rank": 62
+        },
+        {
+            "id": 5124268651,
+            "term": "\u4eba\u9593",
+            "definition": "\u306b\u3093\u3052\u3093 con ng\u01b0\u1eddi, lo\u00e0i ng\u01b0\u1eddi NH\u00c2N GIAN",
+            "image": null,
+            "rank": 63
+        },
+        {
+            "id": 5124268652,
+            "term": "\u4eba\u9593\u95a2\u4fc2",
+            "definition": "\u306b\u3093\u3052\u3093\u304b\u3093\u3051\u3044 quan h\u1ec7 con ng\u01b0\u1eddi NH\u00c2N GIAN QUAN H\u1ec6",
+            "image": null,
+            "rank": 64
+        },
+        {
+            "id": 5124268653,
+            "term": "\u4f5c\u54c1",
+            "definition": "\u3055\u304f\u3072\u3093 t\u00e1c ph\u1ea9m T\u00c1C PH\u1ea8M",
+            "image": null,
+            "rank": 65
+        },
+        {
+            "id": 5124268654,
+            "term": "\u4f5c\u54c1\u304c\u5b8c\u6210\u3057\u305f",
+            "definition": "\u3055\u304f\u3072\u3093\u304c\u304b\u3093\u305b\u3044\u3057\u305f ho\u00e0n th\u00e0nh t\u00e1c ph\u1ea9m T\u00c1C PH\u1ea8M HO\u00c0N TH\u00c0NH",
+            "image": null,
+            "rank": 66
+        },
+        {
+            "id": 5124268655,
+            "term": "\u4f5c\u696d\u304c\u9032\u3080",
+            "definition": "\u3055\u304e\u3087\u3046\u304c\u3059\u3059\u3080 c\u00f4ng vi\u1ec7c ti\u1ebfn tri\u1ec3n T\u00c1C NGHI\u1ec6P TI\u1ebeN",
+            "image": null,
+            "rank": 67
+        },
+        {
+            "id": 5124268656,
+            "term": "\u4f5c\u696d\u3059\u308b",
+            "definition": "\u3055\u304e\u3087\u3046\u3059\u308b l\u00e0m vi\u1ec7c T\u00c1C NGHI\u1ec6P",
+            "image": null,
+            "rank": 68
+        },
+        {
+            "id": 5124268657,
+            "term": "\u4f5c\u8005",
+            "definition": "\u3055\u304f\u3057\u3083 t\u00e1c gi\u1ea3 T\u00c1C GI\u1ea2",
+            "image": null,
+            "rank": 69
+        },
+        {
+            "id": 5124268658,
+            "term": "\u4f5c\u8005\u306b\u8a71\u3092\u805e\u304f",
+            "definition": "\u3055\u304f\u3057\u3083\u306b\u306f\u306a\u3057\u3092\u304d\u304f h\u1ecfi chuy\u1ec7n v\u1edbi t\u00e1c gi\u1ea3 T\u00c1C GI\u1ea2 THO\u1ea0I V\u0102N",
+            "image": null,
+            "rank": 70
+        },
+        {
+            "id": 5124268659,
+            "term": "\u5186\u306e\u4e2d\u5fc3",
+            "definition": "\u3048\u3093\u306e\u3061\u3085\u3046\u3057\u3093 t\u00e2m v\u00f2ng tr\u00f2n VI\u00caN TRUNG T\u00c2M",
+            "image": null,
+            "rank": 71
+        },
+        {
+            "id": 5124268660,
+            "term": "\u53f3\u5074\u3092\u901a\u884c\u3059\u308b",
+            "definition": "\u307f\u304e\u304c\u308f\u3092\u3064\u3046\u3053\u3046\u3059\u308b \u0111i b\u00ean ph\u1ea3i H\u1eeeU TR\u1eaeC TH\u00d4NG H\u00c0NH, H\u00c0NG",
+            "image": null,
+            "rank": 72
+        }
+    ]
