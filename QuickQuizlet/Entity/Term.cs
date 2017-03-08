@@ -1,4 +1,4 @@
-﻿namespace QuickQuizlet
+﻿namespace QuickQuizlet.Entity
 {
     class Term
     {

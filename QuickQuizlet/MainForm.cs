@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using QuickQuizlet.Entity;
 
 namespace QuickQuizlet
 {
@@ -25,7 +26,7 @@ namespace QuickQuizlet
             
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
             
 
@@ -60,6 +61,18 @@ namespace QuickQuizlet
             //Rectangle resolution = Screen.PrimaryScreen.Bounds;
             Rectangle resolution = Screen.PrimaryScreen.WorkingArea;
             this.Location = new System.Drawing.Point(resolution.Right - 250, resolution.Bottom - 250);
+        }
+
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            SettingForm setting = new SettingForm();
+            setting.mainForm = this;
+            setting.Show();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

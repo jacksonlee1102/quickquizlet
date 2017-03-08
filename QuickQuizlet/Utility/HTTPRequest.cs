@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace QuickQuizlet
+namespace QuickQuizlet.Utility
 {
     class HTTPRequest
     {
@@ -19,11 +19,6 @@ namespace QuickQuizlet
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(URL);
 
-            // Add an Accept header for JSON format.
-//            client.DefaultRequestHeaders.Accept.Add(
-//            new MediaTypeWithQualityHeaderValue("application/json"));
-
-            // List data response.
             HttpResponseMessage response = client.GetAsync(URL).Result;
             if (response.IsSuccessStatusCode)
             {
