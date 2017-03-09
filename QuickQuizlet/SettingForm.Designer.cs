@@ -35,6 +35,9 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCheck = new System.Windows.Forms.Button();
             this.lblSetTitle = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.slListSet = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtClientId
@@ -97,11 +100,40 @@
             this.lblSetTitle.Size = new System.Drawing.Size(0, 13);
             this.lblSetTitle.TabIndex = 6;
             // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(12, 103);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(98, 20);
+            this.txtUsername.TabIndex = 7;
+            // 
+            // btnLoad
+            // 
+            this.btnLoad.Location = new System.Drawing.Point(113, 101);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.TabIndex = 8;
+            this.btnLoad.Text = "Load";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
+            // slListSet
+            // 
+            this.slListSet.FormattingEnabled = true;
+            this.slListSet.Location = new System.Drawing.Point(15, 130);
+            this.slListSet.Name = "slListSet";
+            this.slListSet.Size = new System.Drawing.Size(257, 21);
+            this.slListSet.TabIndex = 9;
+            this.slListSet.SelectedIndexChanged += new System.EventHandler(this.slListSet_SelectedIndexChanged);
+            // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.slListSet);
+            this.Controls.Add(this.btnLoad);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblSetTitle);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnSave);
@@ -128,6 +160,9 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.Label lblSetTitle;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.ComboBox slListSet;
 
     }
 }

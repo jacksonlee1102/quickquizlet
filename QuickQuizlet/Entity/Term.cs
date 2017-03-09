@@ -1,8 +1,9 @@
-﻿namespace QuickQuizlet.Entity
+﻿using System;
+namespace QuickQuizlet.Entity
 {
     class Term
     {
-        public int id { get; set; }
+        public Int64 id { get; set; }
         public string term { get; set; }
         public string definition { get; set; }
         public string image { get; set; }

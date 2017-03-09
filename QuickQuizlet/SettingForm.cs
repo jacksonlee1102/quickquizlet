@@ -30,6 +30,7 @@ namespace QuickQuizlet
                 this.setting = Utility.SettingMgr.read();
                 txtClientId.Text = this.setting.clientId;
                 txtSetId.Text = this.setting.currentSetId;
+                txtUsername.Text = this.setting.userFollow;
             }
             else
             {
@@ -41,9 +42,10 @@ namespace QuickQuizlet
         {
             setting.clientId = txtClientId.Text;
             setting.currentSetId = txtSetId.Text;
+            setting.userFollow = txtUsername.Text;
 
             Utility.SettingMgr.write(setting);
-            if (this.currentSet.terms == null)
+            if (this.currentSet == null)
             {
                 this.currentSet = this.getSetDetail();
             }
@@ -69,6 +71,26 @@ namespace QuickQuizlet
             }
             return new SetDetail();
             
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            if(txtUsername.Text != "")
+            {
+                QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
+                List<SetDetail> listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
+                slListSet.DataSource = listSets;
+                slListSet.DisplayMember = "title";
+                slListSet.ValueMember = "id";
+            }
+            
+        }
+
+        private void slListSet_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int n;
+            if (int.TryParse(slListSet.SelectedValue.ToString(),out n))
+            txtSetId.Text = slListSet.SelectedValue.ToString();
         }
 
     }

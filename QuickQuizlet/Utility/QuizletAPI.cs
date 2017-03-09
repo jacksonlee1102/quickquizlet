@@ -18,5 +18,12 @@ namespace QuickQuizlet.Utility
             return Newtonsoft.Json.JsonConvert.DeserializeObject<SetDetail>(strResponse);
         }
 
+        public List<SetDetail> getUserSets(string username, string clientId)
+        {
+            string url = BASE_URL + "users/"+username+"/sets?client_id=" + clientId + "&whitespace=0";
+            string strResponse = HTTPRequest.get(url);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<SetDetail>>(strResponse);
+        }
+
     }
 }

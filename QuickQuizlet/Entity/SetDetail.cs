@@ -15,7 +15,7 @@ namespace QuickQuizlet.Entity
     }
     class SetDetail
     {
-        public int id { get; set; }
+        public Int64 id { get; set; }
         public string url { get; set; }
         public string title { get; set; }
         public string created_by { get; set; }

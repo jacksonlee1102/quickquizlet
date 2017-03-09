@@ -16,6 +16,7 @@ namespace QuickQuizlet.Entity
     {
         public string clientId { get; set; }
         public string currentSetId { get; set; }
+        public string userFollow { get; set; }
         //public List<HistorySet> history { get; set; }
     }
 }
