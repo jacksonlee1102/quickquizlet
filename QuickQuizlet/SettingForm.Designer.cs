@@ -44,6 +44,7 @@
             // 
             this.txtClientId.Location = new System.Drawing.Point(113, 9);
             this.txtClientId.Name = "txtClientId";
+            this.txtClientId.PasswordChar = '*';
             this.txtClientId.Size = new System.Drawing.Size(159, 20);
             this.txtClientId.TabIndex = 0;
             // 
