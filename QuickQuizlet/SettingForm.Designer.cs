@@ -38,6 +38,10 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.btnLoad = new System.Windows.Forms.Button();
             this.slListSet = new System.Windows.Forms.ComboBox();
+            this.lblLoading = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtTime = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtClientId
@@ -103,16 +107,16 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(12, 103);
+            this.txtUsername.Location = new System.Drawing.Point(69, 102);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(98, 20);
             this.txtUsername.TabIndex = 7;
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(113, 101);
+            this.btnLoad.Location = new System.Drawing.Point(173, 100);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(39, 23);
             this.btnLoad.TabIndex = 8;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -127,11 +131,50 @@
             this.slListSet.TabIndex = 9;
             this.slListSet.SelectedIndexChanged += new System.EventHandler(this.slListSet_SelectedIndexChanged);
             // 
+            // lblLoading
+            // 
+            this.lblLoading.AutoSize = true;
+            this.lblLoading.Location = new System.Drawing.Point(218, 106);
+            this.lblLoading.Name = "lblLoading";
+            this.lblLoading.Size = new System.Drawing.Size(54, 13);
+            this.lblLoading.TabIndex = 10;
+            this.lblLoading.Text = "Loading...";
+            this.lblLoading.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 106);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Username";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 174);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Time";
+            // 
+            // txtTime
+            // 
+            this.txtTime.Location = new System.Drawing.Point(113, 171);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(159, 20);
+            this.txtTime.TabIndex = 13;
+            // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.txtTime);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblLoading);
             this.Controls.Add(this.slListSet);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.txtUsername);
@@ -164,6 +207,10 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.ComboBox slListSet;
+        private System.Windows.Forms.Label lblLoading;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTime;
 
     }
 }

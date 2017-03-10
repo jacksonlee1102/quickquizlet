@@ -31,6 +31,7 @@ namespace QuickQuizlet
                 txtClientId.Text = this.setting.clientId;
                 txtSetId.Text = this.setting.currentSetId;
                 txtUsername.Text = this.setting.userFollow;
+                txtTime.Text = this.setting.timeSetting.ToString();
             }
             else
             {
@@ -43,6 +44,7 @@ namespace QuickQuizlet
             setting.clientId = txtClientId.Text;
             setting.currentSetId = txtSetId.Text;
             setting.userFollow = txtUsername.Text;
+            setting.timeSetting = int.Parse( txtTime.Text);
 
             Utility.SettingMgr.write(setting);
             if (this.currentSet == null)
@@ -77,11 +79,17 @@ namespace QuickQuizlet
         {
             if(txtUsername.Text != "")
             {
+                lblLoading.Visible = true;
+                btnLoad.Enabled = false;
+
                 QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
                 List<SetDetail> listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
                 slListSet.DataSource = listSets;
                 slListSet.DisplayMember = "title";
                 slListSet.ValueMember = "id";
+
+                lblLoading.Visible = false;
+                btnLoad.Enabled = true;
             }
             
         }

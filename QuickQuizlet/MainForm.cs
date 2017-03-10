@@ -34,7 +34,7 @@ namespace QuickQuizlet
                 SetDetail sets = api.getSetDetail(setting.currentSetId, setting.clientId);
                 Stored.currentTerms = sets.terms;
 
-                timer1.Interval = 3000;
+                timer1.Interval = setting.timeSetting * 1000;
                 timer1.Start();
 
                 currentTerm = Stored.currentTerms[rnd.Next(0, Stored.currentTerms.Count - 1)];
@@ -73,6 +73,26 @@ namespace QuickQuizlet
             SettingForm setting = new SettingForm();
             setting.mainForm = this;
             setting.Show();
+            setting.FormClosed += new FormClosedEventHandler(settingForm_Close);
+            
+        }
+
+        public void settingForm_Close(object sender, FormClosedEventArgs e)
+        {
+            if (Utility.SettingMgr.fileExist())
+            {
+                Setting setting = Utility.SettingMgr.read();
+                QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
+                SetDetail sets = api.getSetDetail(setting.currentSetId, setting.clientId);
+                Stored.currentTerms = sets.terms;
+
+                timer1.Interval = setting.timeSetting * 1000;
+                timer1.Start();
+
+                currentTerm = Stored.currentTerms[rnd.Next(0, Stored.currentTerms.Count - 1)];
+                textBox1.Text = currentTerm.term;
+                isDisplayTerm = true;
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)
