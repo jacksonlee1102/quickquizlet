@@ -33,6 +33,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSetting = new System.Windows.Forms.Button();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -75,11 +76,21 @@
             this.btnSetting.UseVisualStyleBackColor = true;
             this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
             // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(7, 7);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(35, 13);
+            this.lblStatus.TabIndex = 4;
+            this.lblStatus.Text = "";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(250, 250);
+            this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSetting);
             this.Controls.Add(this.textBox1);
@@ -104,6 +115,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button btnSetting;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label lblStatus;
     }
 }
 

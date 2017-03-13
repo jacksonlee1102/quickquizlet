@@ -27,6 +27,14 @@ namespace QuickQuizlet
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            this.reloadTerms();
+
+            MainForm.ActiveForm.TopMost = true;
+            setLandingPosition();
+        }
+
+        private void reloadTerms()
+        {
             if (Utility.SettingMgr.fileExist())
             {
                 Setting setting = Utility.SettingMgr.read();
@@ -37,13 +45,12 @@ namespace QuickQuizlet
                 timer1.Interval = setting.timeSetting * 1000;
                 timer1.Start();
 
-                currentTerm = Stored.currentTerms[rnd.Next(0, Stored.currentTerms.Count - 1)];
+                int rndNum = rnd.Next(0, Stored.currentTerms.Count - 1);
+                currentTerm = Stored.currentTerms[rndNum];
+                this.updateStatus(rndNum);
                 textBox1.Text = currentTerm.term;
                 isDisplayTerm = true;
             }
-
-            MainForm.ActiveForm.TopMost = true;
-            setLandingPosition();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -55,7 +62,9 @@ namespace QuickQuizlet
             }
             else
             {
-                currentTerm = Stored.currentTerms[rnd.Next(0, Stored.currentTerms.Count - 1)];
+                int rndNum = rnd.Next(0, Stored.currentTerms.Count - 1);
+                currentTerm = Stored.currentTerms[rndNum];
+                this.updateStatus(rndNum);
                 textBox1.Text = currentTerm.term;
                 isDisplayTerm = true;
             }
@@ -79,25 +88,17 @@ namespace QuickQuizlet
 
         public void settingForm_Close(object sender, FormClosedEventArgs e)
         {
-            if (Utility.SettingMgr.fileExist())
-            {
-                Setting setting = Utility.SettingMgr.read();
-                QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
-                SetDetail sets = api.getSetDetail(setting.currentSetId, setting.clientId);
-                Stored.currentTerms = sets.terms;
-
-                timer1.Interval = setting.timeSetting * 1000;
-                timer1.Start();
-
-                currentTerm = Stored.currentTerms[rnd.Next(0, Stored.currentTerms.Count - 1)];
-                textBox1.Text = currentTerm.term;
-                isDisplayTerm = true;
-            }
+            this.reloadTerms();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void updateStatus(int index)
+        {
+            lblStatus.Text = index.ToString() + "/" + Stored.currentTerms.Count.ToString();
         }
 
     }
