@@ -80,7 +80,6 @@ namespace QuickQuizlet
         private void btnSetting_Click(object sender, EventArgs e)
         {
             SettingForm setting = new SettingForm();
-            setting.mainForm = this;
             setting.Show();
             setting.FormClosed += new FormClosedEventHandler(settingForm_Close);
             

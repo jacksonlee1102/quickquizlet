@@ -13,8 +13,6 @@ namespace QuickQuizlet
 {
     public partial class SettingForm : Form
     {
-
-        public MainForm mainForm;
         private Setting setting = new Setting();
         private SetDetail currentSet;
 
