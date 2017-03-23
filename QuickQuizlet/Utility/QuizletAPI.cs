@@ -13,16 +13,34 @@ namespace QuickQuizlet.Utility
 
         public SetDetail getSetDetail(string setId, string clientId)
         {
-            string url = BASE_URL + "sets/" + setId + "?client_id=" + clientId + "&whitespace=0";
-            string strResponse = HTTPRequest.get(url);
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<SetDetail>(strResponse);
+            if (CachesMgr.cacheSetExist(setId))
+            {
+                return CachesMgr.getCacheSet(setId);
+            }
+            else
+            {
+                string url = BASE_URL + "sets/" + setId + "?client_id=" + clientId + "&whitespace=0";
+                string strResponse = HTTPRequest.get(url);
+                SetDetail setDetail =  Newtonsoft.Json.JsonConvert.DeserializeObject<SetDetail>(strResponse);
+                CachesMgr.writeCacheSet(setId, setDetail);
+                return setDetail;
+            }
         }
 
         public List<SetDetail> getUserSets(string username, string clientId)
         {
-            string url = BASE_URL + "users/"+username+"/sets?client_id=" + clientId + "&whitespace=0";
-            string strResponse = HTTPRequest.get(url);
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<SetDetail>>(strResponse);
+            if (CachesMgr.cacheUserExist(username))
+            {
+                return CachesMgr.getCacheSetOfUser(username);
+            }
+            else
+            {
+                string url = BASE_URL + "users/" + username + "/sets?client_id=" + clientId + "&whitespace=0";
+                string strResponse = HTTPRequest.get(url);
+                List<SetDetail> listSets = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SetDetail>>(strResponse);
+                CachesMgr.writeCacheSetOfUser(username, listSets);
+                return listSets;
+            }
         }
 
     }
