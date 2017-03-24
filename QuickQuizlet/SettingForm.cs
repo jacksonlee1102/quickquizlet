@@ -82,6 +82,7 @@ namespace QuickQuizlet
 
                 QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
                 List<SetDetail> listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
+                listSets.Insert(0, new SetDetail());
                 slListSet.DataSource = listSets;
                 slListSet.DisplayMember = "title";
                 slListSet.ValueMember = "id";
@@ -95,7 +96,7 @@ namespace QuickQuizlet
         private void slListSet_SelectedIndexChanged(object sender, EventArgs e)
         {
             int n;
-            if (int.TryParse(slListSet.SelectedValue.ToString(),out n))
+            if (int.TryParse(slListSet.SelectedValue.ToString(), out n) && n > 0)
             txtSetId.Text = slListSet.SelectedValue.ToString();
         }
 
