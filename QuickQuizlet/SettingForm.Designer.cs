@@ -165,6 +165,7 @@
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(159, 20);
             this.txtTime.TabIndex = 13;
+            this.txtTime.Text = "4";
             // 
             // SettingForm
             // 
