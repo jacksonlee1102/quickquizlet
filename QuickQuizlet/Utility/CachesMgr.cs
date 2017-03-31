@@ -27,6 +27,11 @@ namespace QuickQuizlet.Utility
             return CachesMgr.cacheExist("us_" + userName);
         }
 
+        public static bool cacheUserInfoExist(string userName)
+        {
+            return CachesMgr.cacheExist("ui_" + userName);
+        }
+
         public static bool cacheSetExist(string setId)
         {
             return CachesMgr.cacheExist("s_" + setId);
@@ -88,5 +93,7 @@ namespace QuickQuizlet.Utility
             else
                 return new UserDetail();
         }
+
+
     }
 }

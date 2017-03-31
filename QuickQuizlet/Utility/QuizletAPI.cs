@@ -29,7 +29,7 @@ namespace QuickQuizlet.Utility
 
         public UserDetail getUserSets(string username, string clientId)
         {
-            if (CachesMgr.cacheUserSetsExist(username) && false)
+            if (CachesMgr.cacheUserInfoExist(username))
             {
                 return CachesMgr.getCacheUserInfo(username);
             }

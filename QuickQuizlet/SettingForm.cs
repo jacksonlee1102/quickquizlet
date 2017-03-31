@@ -55,9 +55,10 @@ namespace QuickQuizlet
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            
+            btnCheck.Enabled = false;
             this.currentSet = this.getSetDetail();
             lblSetTitle.Text = this.currentSet.title;
+            btnCheck.Enabled = true;
         }
 
         private SetDetail getSetDetail()
