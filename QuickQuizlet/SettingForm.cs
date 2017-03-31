@@ -81,9 +81,10 @@ namespace QuickQuizlet
                 btnLoad.Enabled = false;
 
                 QuickQuizlet.Utility.QuizletAPI api = new QuickQuizlet.Utility.QuizletAPI();
-                List<SetDetail> listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
-                listSets.Insert(0, new SetDetail());
-                slListSet.DataSource = listSets;
+                //List<SetDetail> listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
+                UserDetail listSets = api.getUserSets(txtUsername.Text, txtClientId.Text);
+                listSets.sets.Insert(0, new SetDetail());
+                slListSet.DataSource = listSets.sets;
                 slListSet.DisplayMember = "title";
                 slListSet.ValueMember = "id";
 

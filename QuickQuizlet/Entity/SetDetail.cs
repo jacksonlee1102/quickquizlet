@@ -39,5 +39,6 @@ namespace QuickQuizlet.Entity
         public Creator creator { get; set; }
         public List<int> class_ids { get; set; }
         public List<Term> terms { get; set; }
+        public string display_timestamp { get; set; }
     }
 }

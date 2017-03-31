@@ -22,9 +22,9 @@ namespace QuickQuizlet.Utility
             return File.Exists(cacheDir + cacheName);
         }
 
-        public static bool cacheUserExist(string userName)
+        public static bool cacheUserSetsExist(string userName)
         {
-            return CachesMgr.cacheExist("u_" + userName);
+            return CachesMgr.cacheExist("us_" + userName);
         }
 
         public static bool cacheSetExist(string setId)
@@ -32,9 +32,9 @@ namespace QuickQuizlet.Utility
             return CachesMgr.cacheExist("s_" + setId);
         }
 
-        public static List<SetDetail> getCacheSetOfUser(string userName)
+        public static List<SetDetail> getCacheSetsOfUser(string userName)
         {
-            string filePath = cacheDir + "u_" + userName;
+            string filePath = cacheDir + "us_" + userName;
             if (File.Exists(filePath))
             {
                 string data = File.ReadAllText(filePath);
@@ -46,7 +46,7 @@ namespace QuickQuizlet.Utility
 
         public static void writeCacheSetOfUser(string userName, List<SetDetail>setOfUser)
         {
-            string filePath = cacheDir + "u_" + userName;
+            string filePath = cacheDir + "us_" + userName;
             string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(setOfUser);
             File.WriteAllText(filePath, jsonData);
         }
@@ -68,6 +68,25 @@ namespace QuickQuizlet.Utility
             string filePath = cacheDir + "s_" + setId;
             string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(setData);
             File.WriteAllText(filePath, jsonData);
+        }
+
+        internal static void writeCacheUserInfo(string username, UserDetail userDetail)
+        {
+            string filePath = cacheDir + "ui_" + username;
+            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(userDetail);
+            File.WriteAllText(filePath, jsonData);
+        }
+
+        public static UserDetail getCacheUserInfo(string userName)
+        {
+            string filePath = cacheDir + "ui_" + userName;
+            if (File.Exists(filePath))
+            {
+                string data = File.ReadAllText(filePath);
+                return Newtonsoft.Json.JsonConvert.DeserializeObject<UserDetail>(data);
+            }
+            else
+                return new UserDetail();
         }
     }
 }

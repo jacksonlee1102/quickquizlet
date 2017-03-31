@@ -114,6 +114,7 @@
     <Compile Include="Entity\Term.cs" />
     <Compile Include="Utility\QuizletAPI.cs" />
     <Compile Include="Utility\SettingMgr.cs" />
+    <Compile Include="Entity\UserDetail.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -27,18 +27,19 @@ namespace QuickQuizlet.Utility
             }
         }
 
-        public List<SetDetail> getUserSets(string username, string clientId)
+        public UserDetail getUserSets(string username, string clientId)
         {
-            if (CachesMgr.cacheUserExist(username))
+            if (CachesMgr.cacheUserSetsExist(username) && false)
             {
-                return CachesMgr.getCacheSetOfUser(username);
+                return CachesMgr.getCacheUserInfo(username);
             }
             else
             {
-                string url = BASE_URL + "users/" + username + "/sets?client_id=" + clientId + "&whitespace=0";
+                string url = BASE_URL + "users/" + username + "?client_id=" + clientId + "&whitespace=0";
                 string strResponse = HTTPRequest.get(url);
-                List<SetDetail> listSets = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SetDetail>>(strResponse);
-                CachesMgr.writeCacheSetOfUser(username, listSets);
+                //List<SetDetail> listSets = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SetDetail>>(strResponse);
+                UserDetail listSets = Newtonsoft.Json.JsonConvert.DeserializeObject<UserDetail>(strResponse);
+                CachesMgr.writeCacheUserInfo(username, listSets);
                 return listSets;
             }
         }
